@@ -9,8 +9,68 @@ export default function Home() {
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
         backgroundColor: "white",
+        position: "relative",
+        fontFamily: '"Times New Roman", Times, serif',
       }}
     >
+      <nav
+        style={{
+          position: "absolute",
+          top: "24px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          display: "flex",
+          gap: "48px",
+          fontSize: "14px",
+        }}
+      >
+        <a
+          href="/resume.pdf"
+          style={{
+            color: "black",
+            textDecoration: "underline",
+          }}
+        >
+          resume
+        </a>
+
+        <a
+          href="https://github.com/gitidhar"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            textDecoration: "underline",
+          }}
+        >
+          github
+        </a>
+
+        <a
+          href="https://linkedin.com/in/giridhar-patri"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            textDecoration: "underline",
+          }}
+        >
+          linkedin
+        </a>
+
+        <a
+          href="https://YOUR_SUBSTACK.substack.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "black",
+            textDecoration: "underline",
+          }}
+        >
+          substack
+        </a>
+      </nav>
+
       <div
         style={{
           minHeight: "100vh",
