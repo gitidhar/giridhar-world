@@ -3,15 +3,26 @@ export default function Home() {
     <main
       style={{
         minHeight: "100vh",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
+        width: "100%",
+        backgroundImage: "url('/ocean.png')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
         backgroundColor: "white",
-        color: "black",
-        fontSize: "12px",
       }}
     >
-      hi
+      <div
+        style={{
+          minHeight: "100vh",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          color: "black",
+          fontSize: "12px",
+        }}
+      >
+        hi
+      </div>
     </main>
   );
 }
