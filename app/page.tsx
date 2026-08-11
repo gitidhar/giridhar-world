@@ -21,7 +21,7 @@ export default function Home() {
           transform: "translateX(-50%)",
           display: "flex",
           gap: "48px",
-          fontSize: "14px",
+          fontSize: "24px",
         }}
       >
         <a
