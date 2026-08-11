@@ -4,7 +4,7 @@ export default function Home() {
       style={{
         minHeight: "100vh",
         width: "100%",
-        backgroundImage: "url('/ocean.png')",
+        backgroundImage: "url('/landing.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
