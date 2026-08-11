@@ -81,7 +81,7 @@ export default function Home() {
           fontSize: "36px",
         }}
       >
-        hi
+        giridhar
       </div>
     </main>
   );
