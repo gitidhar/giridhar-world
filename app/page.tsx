@@ -78,7 +78,7 @@ export default function Home() {
           alignItems: "center",
           justifyContent: "center",
           color: "black",
-          fontSize: "12px",
+          fontSize: "36px",
         }}
       >
         hi
