@@ -99,7 +99,7 @@ export default function Home() {
           style={{
             marginTop: "22px",
             marginBottom: 0,
-            fontSize: "16px",
+            fontSize: "18px",
           }}
         >
           gpatriofficial@gmail.com
