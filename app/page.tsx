@@ -91,7 +91,7 @@ export default function Home() {
         }}
       >
         <p style={{ margin: 0 }}>
-          currently an engineer in fintech at @ visa. Interested in stablecoin, agentic payment modalities, & looking to pursue research in various artificial 
+          currently an engineer in fintech @ visa. Interested in stablecoin, agentic payment modalities, & looking to pursue research in various artificial 
           intelligence paradigms.
         </p>
 
