@@ -11,6 +11,8 @@ export default function Home() {
         backgroundColor: "white",
         position: "relative",
         fontFamily: '"Times New Roman", Times, serif',
+        color: "black",
+        overflow: "hidden",
       }}
     >
       <nav
@@ -22,10 +24,13 @@ export default function Home() {
           display: "flex",
           gap: "48px",
           fontSize: "24px",
+          whiteSpace: "nowrap",
         }}
       >
         <a
           href="/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
           style={{
             color: "black",
             textDecoration: "underline",
@@ -71,18 +76,35 @@ export default function Home() {
         </a>
       </nav>
 
-      <div
+      <section
         style={{
-          minHeight: "100vh",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
+          position: "absolute",
+          top: "47%",
+          left: "37%",
+          transform: "translate(-50%, -50%)",
+          width: "420px",
+          maxWidth: "80vw",
           color: "black",
-          fontSize: "36px",
+          fontSize: "20px",
+          lineHeight: "1.45",
+          textAlign: "left",
         }}
       >
-        gpatriofficial@gmail.com
-      </div>
+        <p style={{ margin: 0 }}>
+          I'm Giridhar. I like building things, thinking about technology,
+          philosophy, spirituality, and whatever else happens to interest me.
+        </p>
+
+        <p
+          style={{
+            marginTop: "22px",
+            marginBottom: 0,
+            fontSize: "16px",
+          }}
+        >
+          gpatriofficial@gmail.com
+        </p>
+      </section>
     </main>
   );
 }
