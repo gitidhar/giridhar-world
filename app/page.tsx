@@ -91,8 +91,8 @@ export default function Home() {
         }}
       >
         <p style={{ margin: 0 }}>
-          I'm Giridhar. I like building things, thinking about technology,
-          philosophy, spirituality, and whatever else happens to interest me.
+          currently an engineer in fintech at @ visa. Interested in pursuing research in various artificial 
+          intelligence paradigms.
         </p>
 
         <p
