@@ -122,7 +122,7 @@ body {
 
   /* Sit the boat on the water, slightly left of center and below the bio */
   left: 25%;
-  bottom: 10%;
+  bottom: 5%;
 
   width: 13%;
   height: auto;
@@ -175,7 +175,7 @@ body {
 
   .latent {
     left: 25%;
-    bottom: 14%;
+    bottom: 5%;
     width: 12%;
   }
 }
@@ -220,7 +220,7 @@ body {
   }
 
   .latent {
-    left: 25%;
+    left: 27%;
     bottom: 10%;
     width: 14%;
   }
