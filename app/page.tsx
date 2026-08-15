@@ -8,7 +8,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://github.com/PRIVATE"
+            href="https://github.com/BBX93KSLLAKS92"
             target="_blank"
             rel="noopener noreferrer"
           >
