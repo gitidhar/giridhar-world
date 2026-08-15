@@ -23,6 +23,7 @@ export default function Home() {
             linkedin
           </a>
 
+
           <a
             href="https://YOUR_SUBSTACK.substack.com"
             target="_blank"
@@ -36,6 +37,8 @@ export default function Home() {
           currently an engineer in fintech @ visa. Interested in stablecoin,
           agentic payment modalities, & blockchain rails. Looking to pursue
           research in various artificial intelligence paradigms.
+
+          contact: gpatriofficial@gmail.com
         </section>
 
         <img
