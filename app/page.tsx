@@ -86,7 +86,7 @@ export default function Home() {
           width: "420px",
           maxWidth: "80vw",
           color: "black",
-          fontSize: "20px",
+          fontSize: "30px",
           lineHeight: "1.45",
           textAlign: "left",
         }}
