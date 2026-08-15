@@ -83,7 +83,7 @@ export default function Home() {
           top: "47%",
           left: "34%",
           transform: "translate(-50%, -50%)",
-          width: "420px",
+          width: "650px",
           maxWidth: "80vw",
           color: "black",
           fontSize: "30px",
