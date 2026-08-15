@@ -24,7 +24,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://YOUR_SUBSTACK.substack.com"
+            href="https://giridhar_doesnt_have_substack_yet.substack.com"
             target="_blank"
             rel="noopener noreferrer"
           >
