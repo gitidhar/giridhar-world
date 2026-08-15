@@ -117,6 +117,23 @@ body {
   z-index: 1;
 }
 
+.latent {
+  position: absolute;
+
+  /* Sit the boat on the water, slightly left of center and below the bio */
+  left: 36%;
+  bottom: 15%;
+
+  width: 13%;
+  height: auto;
+
+  transform: translateX(-50%);
+  object-fit: contain;
+
+  z-index: 2;
+  pointer-events: none;
+}
+
 
 /* =========================================================
    LARGE MONITORS
@@ -154,6 +171,12 @@ body {
     left: 66%;
 
     width: 21%;
+  }
+
+  .latent {
+    left: 36%;
+    bottom: 14%;
+    width: 12%;
   }
 }
 
@@ -195,6 +218,12 @@ body {
     /* make it smaller on laptop */
     width: 17%;
   }
+
+  .latent {
+    left: 35%;
+    bottom: 14%;
+    width: 14%;
+  }
 }
 
 
@@ -231,6 +260,12 @@ body {
     left: 66%;
 
     width: 16%;
+  }
+
+  .latent {
+    left: 34%;
+    bottom: 14%;
+    width: 15%;
   }
 }
 
@@ -269,6 +304,12 @@ body {
     top: 20%;
     left: 67%;
 
+    width: 22%;
+  }
+
+  .latent {
+    left: 34%;
+    bottom: 16%;
     width: 22%;
   }
 }

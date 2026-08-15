@@ -49,6 +49,12 @@ export default function Home() {
           src="/symbols.png"
           alt=""
         />
+
+        <img
+          className="latent"
+          src="/latent.png"
+          alt="Stick figure traversing the ocean in a boat"
+        />
       </div>
     </main>
   );
