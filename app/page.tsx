@@ -76,11 +76,12 @@ export default function Home() {
         </a>
       </nav>
 
+      {/* Blurb */}
       <section
         style={{
           position: "absolute",
           top: "47%",
-          left: "37%",
+          left: "34%",
           transform: "translate(-50%, -50%)",
           width: "420px",
           maxWidth: "80vw",
@@ -91,7 +92,9 @@ export default function Home() {
         }}
       >
         <p style={{ margin: 0 }}>
-          currently an engineer in fintech @ visa. Interested in stablecoin, agentic payment modalities, & blockchain rails. Looking to pursue research in various artificial intelligence paradigms.
+          currently an engineer in fintech @ visa. Interested in stablecoin,
+          agentic payment modalities, & blockchain rails. Looking to pursue
+          research in various artificial intelligence paradigms.
         </p>
 
         <p
@@ -104,6 +107,21 @@ export default function Home() {
           gpatriofficial@gmail.com
         </p>
       </section>
+
+      {/* Drawing */}
+      <img
+        src="/image.png"
+        alt="hand drawn technology symbols"
+        style={{
+          position: "absolute",
+          top: "47%",
+          left: "68%",
+          transform: "translate(-50%, -50%)",
+          width: "clamp(220px, 25vw, 400px)",
+          height: "auto",
+          objectFit: "contain",
+        }}
+      />
     </main>
   );
 }
