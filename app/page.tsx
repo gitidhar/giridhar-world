@@ -3,7 +3,7 @@ export default function Home() {
     <main className="screen">
       <div className="canvas">
         <nav className="nav">
-          <a href="/resume.pdf" target="_blank">
+          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             resume
           </a>
 
@@ -23,7 +23,6 @@ export default function Home() {
             linkedin
           </a>
 
-
           <a
             href="https://YOUR_SUBSTACK.substack.com"
             target="_blank"
@@ -34,11 +33,15 @@ export default function Home() {
         </nav>
 
         <section className="description">
-          currently an engineer in fintech @ visa. Interested in stablecoin,
-          agentic payment modalities, & blockchain rails. Looking to pursue
-          research in various artificial intelligence paradigms.
+          <p className="bio">
+            currently an engineer in fintech @ visa. Interested in stablecoin,
+            agentic payment modalities, & blockchain rails. Looking to pursue
+            research in various artificial intelligence paradigms.
+          </p>
 
-          contact: gpatriofficial@gmail.com
+          <a className="email" href="mailto:gpatriofficial@gmail.com">
+            gpatriofficial@gmail.com
+          </a>
         </section>
 
         <img
