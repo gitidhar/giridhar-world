@@ -3,7 +3,9 @@ export default function Home() {
     <main className="screen">
       <div className="canvas">
         <nav className="nav">
-          <a href="/resume.pdf">resume</a>
+          <a href="/resume.pdf" target="_blank">
+            resume
+          </a>
 
           <a
             href="https://github.com/gitidhar"
@@ -35,6 +37,12 @@ export default function Home() {
           agentic payment modalities, & blockchain rails. Looking to pursue
           research in various artificial intelligence paradigms.
         </section>
+
+        <img
+          className="symbols"
+          src="/symbols.png"
+          alt=""
+        />
       </div>
     </main>
   );
