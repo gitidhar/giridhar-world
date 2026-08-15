@@ -34,7 +34,7 @@ export default function Home() {
 
         <section className="description">
           <p className="bio">
-            currently an engineer in fintech @ visa. Interested in stablecoin,
+            Currently an engineer in fintech @ visa. Interested in stablecoin,
             agentic payment modalities, & blockchain rails. Looking to pursue
             research in various artificial intelligence paradigms.
           </p>
